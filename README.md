@@ -123,6 +123,7 @@ npm install ng-s3upload
   ```html
   <div s3-upload bucket="s3Bucket" ng-model="product.remote_product_file_url"
      s3-upload-options="{getOptionsUri: s3OptionsUri, folder: 'images/'}">
+   </div>
   ```
 
 attributes:
@@ -148,4 +149,3 @@ app.config(function(ngS3Config) {
 ```
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/asafdav/ng-s3upload/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
